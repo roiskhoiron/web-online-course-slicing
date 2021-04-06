@@ -281,3 +281,83 @@ button.btn-off-tab {
     color: #774297 !important;
     border-color: #774297 !important;
 }
+
+section.testimonial {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    margin: 144px;
+}
+
+
+.reviewer {
+    display: flex;
+}
+
+.description-testi {
+    margin-top: 64px;
+    padding-left: 24px;
+}
+  
+.description-testi h3 {
+    font-size: 24px;
+    color: #2e2e2e;
+}
+  
+.description-testi p {
+    color: #727272;
+    font-size: 18px;
+    margin-top: 18px;
+}
+  
+p.label-user {
+    color: #774297;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 18px;
+}
+
+.tab {
+    display: flex;
+    width: 10vh;
+    justify-content: space-between;
+    margin:44px 0;
+}
+
+.tab span {
+    background-color: transparent;
+    border: 1px solid #2e2e2e;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.tab span.active {
+    background-color: #2e2e2e;
+}
+
+section.jumbotron {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 144px 0;
+    padding: 64px;
+  }
+  
+  .single-centered-cta {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  footer {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-media img {
+    height: 42px;
+    margin-left: 18px;
+  }
