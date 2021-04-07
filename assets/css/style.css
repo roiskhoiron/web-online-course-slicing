@@ -181,6 +181,7 @@ section.pricing {
     background-color: #F3EAF5;
     border-radius: 40px;
 }
+
 .heading {
     text-align: center;
 }
@@ -239,6 +240,17 @@ button.btn-off-tab {
     flex-direction: column;
 }
 
+.cta-subscribe {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cta-subscribe button {
+    width: 184px;
+}
+
 .description-pricing {
     height: 34vh;
 }
@@ -277,7 +289,9 @@ button.btn-off-tab {
     background-color: #2e2e2e !important;
 }
 
-.card-primary h3, .card-primary h1, .card-primary {
+.card-primary h3,
+.card-primary h1,
+.card-primary {
     color: #774297 !important;
     border-color: #774297 !important;
 }
@@ -285,7 +299,7 @@ button.btn-off-tab {
 section.testimonial {
     display: grid;
     grid-template-columns: 1.2fr 1fr;
-    margin: 144px;
+    margin: 144px 0;
 }
 
 
@@ -297,18 +311,18 @@ section.testimonial {
     margin-top: 64px;
     padding-left: 24px;
 }
-  
+
 .description-testi h3 {
     font-size: 24px;
     color: #2e2e2e;
 }
-  
+
 .description-testi p {
     color: #727272;
     font-size: 18px;
     margin-top: 18px;
 }
-  
+
 p.label-user {
     color: #774297;
     font-weight: bold;
@@ -320,7 +334,7 @@ p.label-user {
     display: flex;
     width: 10vh;
     justify-content: space-between;
-    margin:44px 0;
+    margin: 44px 0;
 }
 
 .tab span {
@@ -340,24 +354,52 @@ section.jumbotron {
     grid-template-columns: 2fr 1fr;
     margin: 144px 0;
     padding: 64px;
-  }
-  
-  .single-centered-cta {
+}
+
+img.pyramid {
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+img.oval {
+    position: absolute;
+    bottom: -40px;
+    right: 20%;
+}
+
+img.flow {
+    position: absolute;
+    right: 30%;
+    top: 35%;
+}
+
+.single-centered-cta {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  footer {
+}
+
+footer {
     height: 20vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .social-media img {
+    display: grid;
+    grid-template-columns: 2fr 0.6fr 0.6fr 1fr;
+}
+
+.social-media img {
     height: 42px;
     margin-left: 18px;
-  }
+}
+
+.nav-bottom-menu {}
+
+.nav-bottom-menu a {
+    color: #728196;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px 0;
+    font-weight: 500;
+    line-height: 32px;
+}
